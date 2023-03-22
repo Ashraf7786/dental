@@ -1,19 +1,63 @@
 @media only screen and (max-width: 600px) {
-  .slideimage{
+  .slideimage {
     height: 100%;
   }
-  }
-  .img:hover{
-    transition:scale(1.3);
-    z-index: 2;
-   }
-   .img{
-      transition: 1s;
 }
-.nav-link{
+
+.img:hover {
+  transition: scale(1.3);
+  z-index: 2;
+}
+
+.img {
+  transition: 1s;
+}
+
+.nav-link {
   color: red;
 }
-.card{
+
+.card {
   border: none;
   border-radius: 10px;
+}
+
+.dental {
+  font-size: 12PX;
+  color: white;
+  background-color: orangered;
+  border-radius: 2px;
+  margin-right: 900px;
+  margin-bottom: 900px;
+
+}
+
+.premium {
+  background-color: aliceblue;
+  color: navy;
+}
+
+.working {
+  font-size: 40px;
+  font-family: catamaran;
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 20px;
+  color: navy;
+  font-weight: 900;
+}
+.lis{
+  list-style: none;
+  margin-top: 80PX;
+  margin-left: 30px;
+}
+.root{
+  text-align: center;
+
+  position: absolute;
+  margin-left:120px
+}
+.monial{
+  width: 100%;
+  height: 100%;
 }
